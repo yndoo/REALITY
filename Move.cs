@@ -1,19 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;
-
 
 public class Move : MonoBehaviour
 {
-
-    // Start is called before the first frame update
-    void Update()
+    private void OnEnable()     // 오브젝트가 활성화되면 실행하는 함수
     {
-       for (int i=0; i<DataManager.Instance.lineSize; i++)
-        {
-            
-        }
-    }
 
+    }
+    private void Update()
+    {
+
+    }
 }
